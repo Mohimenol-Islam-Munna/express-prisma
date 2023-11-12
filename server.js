@@ -28,5 +28,5 @@ app.use("*", (req, res) => {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log(`Server is rouning at port ${process.env.PORT}`);
+  console.log(`Server is running at port ${process.env.PORT}`);
 });
